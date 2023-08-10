@@ -1,0 +1,32 @@
+{
+  "name": "@wsk1113/react-ui-sk",
+  "version": "0.2.0",
+  "private": false,
+  "description": "一个狠好使的React+TS组件库! / a React+TS based highly popular management component ui lib!",
+  "main": "bundle.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "table",
+    "form",
+    "menu",
+    "header",
+    "popup",
+    "btn-group",
+    "uploader"
+  ],
+  "author": "wsk1113",
+  "license": "ISC",
+  "peerDependencies": {
+    "axios": "^1.4.0",
+    "sass": "^1.64.1",
+    "spark-md5": "^3.0.2",
+    "xlsx": "^0.18.5",
+    "react-transition-group": "^4.4.5"
+}
+}

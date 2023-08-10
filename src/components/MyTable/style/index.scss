@@ -1,0 +1,46 @@
+td {
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color:blue;
+}
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+
+    th,
+    td {
+        border: 1px solid #ccc;
+        padding: 8px;
+    }
+
+    thead {
+        tr {
+            background-color: #f5f5f5;
+
+            .sort {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            svg {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+    tbody {
+        tr {
+            &:nth-child(odd) {
+                background-color: #fff;
+            }
+
+            &:nth-child(even) {
+                background-color: #f5f5f5;
+            }
+        }
+    }
+}
